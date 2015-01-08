@@ -26,9 +26,10 @@
         "mopa/bootstrap-bundle": "v3.0.0-beta3",
         "twbs/bootstrap": "v3.0.0",
         "sonata-project/easy-extends-bundle": "~2.1@dev",
-        "sonata-project/user-bundle": "~2.2"
-
-
+        "sonata-project/user-bundle": "~2.2",
+        "sonata-project/intl-bundle": "~2.2@dev",
+        "sonata-project/media-bundle": "~2.3@dev",
+        "jms/serializer-bundle": "~0.13"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"

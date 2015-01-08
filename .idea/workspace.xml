@@ -7,7 +7,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="$PROJECT_DIR$/app/config/security.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sonata.iws" />
@@ -31,28 +30,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="41" selection-start="1987" selection-end="2045" vertical-scroll-proportion="0.0" vertical-offset="963" max-vertical-offset="2465">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AppKernel.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="76" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.89171976" vertical-offset="145" max-vertical-offset="833">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parameters.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="18" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenerateCommand.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/sonata-project/easy-extends-bundle/Command/GenerateCommand.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="19" selection-start="2676" selection-end="2676" vertical-scroll-proportion="-11.769231" vertical-offset="816" max-vertical-offset="2720">
+            <state line="38" column="54" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.6363636" vertical-offset="349" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -61,68 +51,8 @@
       <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="6" selection-start="1186" selection-end="1186" vertical-scroll-proportion="-15.153846" vertical-offset="133" max-vertical-offset="1309">
-              <folding>
-                <marker date="1420715051894" expanded="true" signature="0:2914" placeholder="{&quot;name&quot;: &quot;symfony/framework-standard-edition&quot;...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="27" selection-start="2014" selection-end="2014" vertical-scroll-proportion="-6.12" vertical-offset="1020" max-vertical-offset="1955">
+            <state line="31" column="30" selection-start="1289" selection-end="1310" vertical-scroll-proportion="-6.5384617" vertical-offset="357" max-vertical-offset="1326">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="security.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="12" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="93" max-vertical-offset="1003">
-              <folding>
-                <marker date="1420721681033" expanded="true" signature="14:75" placeholder="encoders:" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="323">
-              <folding>
-                <marker date="1420710350773" expanded="true" signature="21:384" placeholder="..." />
-                <marker date="1420710350773" expanded="true" signature="32:268" placeholder="..." />
-                <marker date="1420710350773" expanded="true" signature="279:376" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="18" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <folding>
-                <marker date="1420716436740" expanded="true" signature="104:177" placeholder="_sonata_admin:" />
-                <marker date="1420716436740" expanded="true" signature="178:281" placeholder="sonata_user_security:" />
-                <marker date="1420716436740" expanded="true" signature="282:410" placeholder="sonata_user_resetting:" />
-                <marker date="1420716436740" expanded="true" signature="411:533" placeholder="sonata_user_profile:" />
-                <marker date="1420716436740" expanded="true" signature="534:663" placeholder="sonata_user_register:" />
-                <marker date="1420716436740" expanded="true" signature="664:802" placeholder="sonata_user_change_password:" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -150,10 +80,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
       </list>
@@ -220,7 +150,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,25 +164,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonata" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sonata" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
+              <option name="myItemId" value="uploads" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -303,6 +219,19 @@
     <property name="LayoutCode.rearrangeEntriesYaml" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -333,7 +262,11 @@
       <created>1420712870814</created>
       <updated>1420712870814</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="instalation sonataUserBundle">
+      <created>1420724460192</created>
+      <updated>1420724460192</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -342,7 +275,7 @@
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36557376" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27377048" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -351,7 +284,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30327868" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19344263" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -375,7 +308,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="instalation sonataAdminBundle" />
-    <option name="LAST_COMMIT_MESSAGE" value="instalation sonataAdminBundle" />
+    <MESSAGE value="instalation sonataUserBundle" />
+    <option name="LAST_COMMIT_MESSAGE" value="instalation sonataUserBundle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -385,40 +319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="430">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="584">
-          <folding>
-            <marker date="1420710350773" expanded="true" signature="21:384" placeholder="..." />
-            <marker date="1420710350773" expanded="true" signature="32:268" placeholder="..." />
-            <marker date="1420710350773" expanded="true" signature="279:376" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="6" selection-start="1186" selection-end="1186" vertical-scroll-proportion="-15.153846" vertical-offset="133" max-vertical-offset="1309">
-          <folding>
-            <marker date="1420715051894" expanded="true" signature="0:2914" placeholder="{&quot;name&quot;: &quot;symfony/framework-standard-edition&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="18" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding>
-            <marker date="1420716436740" expanded="true" signature="104:177" placeholder="_sonata_admin:" />
-            <marker date="1420716436740" expanded="true" signature="178:281" placeholder="sonata_user_security:" />
-            <marker date="1420716436740" expanded="true" signature="282:410" placeholder="sonata_user_resetting:" />
-            <marker date="1420716436740" expanded="true" signature="411:533" placeholder="sonata_user_profile:" />
-            <marker date="1420716436740" expanded="true" signature="534:663" placeholder="sonata_user_register:" />
-            <marker date="1420716436740" expanded="true" signature="664:802" placeholder="sonata_user_change_password:" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -436,25 +336,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="12" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="93" max-vertical-offset="1003">
-          <folding>
-            <marker date="1420721681033" expanded="true" signature="14:75" placeholder="encoders:" />
-          </folding>
+        <state line="17" column="12" selection-start="567" selection-end="567" vertical-scroll-proportion="0.48395061" vertical-offset="93" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="18" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.75555557" vertical-offset="340" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="30" selection-start="1289" selection-end="1310" vertical-scroll-proportion="-6.5384617" vertical-offset="357" max-vertical-offset="1326">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="27" selection-start="2014" selection-end="2014" vertical-scroll-proportion="-6.12" vertical-offset="1020" max-vertical-offset="1955">
+        <state line="69" column="41" selection-start="1987" selection-end="2045" vertical-scroll-proportion="0.0" vertical-offset="963" max-vertical-offset="2465">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="76" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.89171976" vertical-offset="145" max-vertical-offset="833">
+        <state line="38" column="54" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.6363636" vertical-offset="349" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
