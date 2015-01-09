@@ -35,6 +35,10 @@ class AppKernel extends Kernel
             new Knp\Bundle\MarkdownBundle\KnpMarkdownBundle(),
             new Application\Sonata\NewsBundle\ApplicationSonataNewsBundle(),
             new Application\Sonata\ClassificationBundle\ApplicationSonataClassificationBundle(),
+            new Spy\TimelineBundle\SpyTimelineBundle(),
+            new Sonata\TimelineBundle\SonataTimelineBundle(),
+            new Application\Sonata\TimelineBundle\ApplicationSonataTimelineBundle() ,
+            new Sonata\SeoBundle\SonataSeoBundle(),
 
 
         );
