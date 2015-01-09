@@ -29,6 +29,10 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    form:
+            resources:
+                # ...
+                - 'SonataFormatterBundle:Form:formatter.html.twig'
 
 # Assetic Configuration
 assetic:
@@ -72,6 +76,10 @@ doctrine:
                            FOSUserBundle: ~
                            ApplicationSonataMediaBundle: ~
                            SonataMediaBundle: ~
+                           ApplicationSonataNewsBundle: ~
+                           SonataNewsBundle: ~
+                           SonataClassificationBundle: ~
+                           ApplicationSonataClassificationBundle: ~
 
 # Swiftmailer Configuration
 swiftmailer:
@@ -138,3 +146,46 @@ sonata_media:
         local:
             directory:  %kernel.root_dir%/../web/uploads/media
             create:     false
+
+sonata_news:
+    title:        Sonata Project
+    link:         http://sonata-project.org
+    description:  Cool bundles on top of Symfony2
+    salt:         'secureToken'
+    permalink_generator: sonata.news.permalink.date # sonata.news.permalink.category
+
+    comment:
+        notification:
+            emails:   [email@example.org, email2@example.org]
+            from:     no-reply@sonata-project.org
+            template: 'SonataNewsBundle:Mail:comment_notification.txt.twig'
+
+
+
+sonata_formatter:
+    formatters:
+        markdown:
+            service: sonata.formatter.text.markdown
+            extensions:
+                - sonata.formatter.twig.control_flow
+                - sonata.formatter.twig.gist
+                - sonata.media.formatter.twig
+
+        text:
+            service: sonata.formatter.text.text
+            extensions:
+                - sonata.formatter.twig.control_flow
+                - sonata.formatter.twig.gist
+                - sonata.media.formatter.twig
+        rawhtml:
+            service: sonata.formatter.text.raw
+            extensions:
+                - sonata.formatter.twig.control_flow
+                - sonata.formatter.twig.gist
+                - sonata.media.formatter.twig
+        richhtml:
+            service: sonata.formatter.text.raw
+            extensions:
+                - sonata.formatter.twig.control_flow
+                - sonata.formatter.twig.gist
+                - sonata.media.formatter.twig
