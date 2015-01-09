@@ -80,6 +80,8 @@ doctrine:
                            SonataNewsBundle: ~
                            SonataClassificationBundle: ~
                            ApplicationSonataClassificationBundle: ~
+                           SonataNotificationBundle: ~
+                           ApplicationSonataNotificationBundle: ~
 
 # Swiftmailer Configuration
 swiftmailer:
@@ -247,3 +249,7 @@ sonata_seo:
             'xmlns':              http://www.w3.org/1999/xhtml
             'xmlns:og':           http://opengraphprotocol.org/schema/
             #'xmlns:fb':           "http://www.facebook.com/2008/fbml"
+
+
+sonata_notification:
+    backend: sonata.notification.backend.runtime

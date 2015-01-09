@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "802e72220cf7916f668c4afd5821683d",
+    "hash": "3d1ea93b5f0b3e1f6a3810e9935878be",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -3407,16 +3407,16 @@
         },
         {
             "name": "sonata-project/notification-bundle",
-            "version": "2.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataNotificationBundle.git",
-                "reference": "4ff286549fa62fa9ef81064b1bccedf2f7f86bb5"
+                "reference": "b3faa4623998688b893ffcf191dfe79ff72df8a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataNotificationBundle/zipball/4ff286549fa62fa9ef81064b1bccedf2f7f86bb5",
-                "reference": "4ff286549fa62fa9ef81064b1bccedf2f7f86bb5",
+                "url": "https://api.github.com/repos/sonata-project/SonataNotificationBundle/zipball/b3faa4623998688b893ffcf191dfe79ff72df8a2",
+                "reference": "b3faa4623998688b893ffcf191dfe79ff72df8a2",
                 "shasum": ""
             },
             "require": {
@@ -3474,7 +3474,7 @@
                 "page",
                 "sonata"
             ],
-            "time": "2014-09-11 12:33:15"
+            "time": "2014-09-17 20:47:57"
         },
         {
             "name": "sonata-project/seo-bundle",
@@ -4386,7 +4386,8 @@
         "sonata-project/formatter-bundle": 20,
         "sonata-project/classification-bundle": 20,
         "sonata-project/timeline-bundle": 20,
-        "sonata-project/seo-bundle": 20
+        "sonata-project/seo-bundle": 20,
+        "sonata-project/notification-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
