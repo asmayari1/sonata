@@ -6,6 +6,9 @@
     "autoload": {
         "psr-0": { "": "src/", "SymfonyStandard": "app/" }
     },
+   "minimum-stability": "stable",
+
+
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.6.*",
@@ -38,7 +41,12 @@
         "sonata-project/timeline-bundle": "~2.2@dev",
         "sonata-project/seo-bundle": "~1@dev",
         "sonata-project/notification-bundle": "~2.2@dev",
-        "sonata-project/page-bundle": "~2.3@dev"
+        "sonata-project/page-bundle": "~2.3@dev",
+        "symfony-cmf/routing-bundle": "~1.1",
+        "sonata-project/cache-bundle": "~2.1@dev",
+        "sonata-project/cache": "~1.0@dev",
+        "sonata-project/datagrid-bundle": "~2.2@dev"
+
 
 
 
