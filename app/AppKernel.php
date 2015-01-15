@@ -45,6 +45,7 @@ class AppKernel extends Kernel
             new Symfony\Cmf\Bundle\RoutingBundle\CmfRoutingBundle(),
             new Sonata\CacheBundle\SonataCacheBundle(),
             new Application\Sonata\PageBundle\ApplicationSonataPageBundle(),
+            new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
         );
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();

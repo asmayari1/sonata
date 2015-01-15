@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b1d505e12714f9b2375175ed1ef23397",
+    "hash": "d8494ce910ac273126d47a9a177bc0e8",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -1720,7 +1720,7 @@
                     "email": "stof@notk.org"
                 },
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 },
                 {

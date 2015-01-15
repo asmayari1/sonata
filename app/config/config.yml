@@ -162,6 +162,22 @@ sonata_news:
             template: 'SonataNewsBundle:Mail:comment_notification.txt.twig'
 
 
+    title:        %sonata_news.blog_title%
+    link:         %sonata_news.blog_link%
+    description:  %sonata_news.blog_description%
+    salt:         %sonata_news.salt%
+
+    # permalink_generator: sonata.news.permalink.category # /party/new-year
+    permalink_generator: sonata.news.permalink.date # /2011/12/31/new-year
+
+    # comment options
+    comment:
+        notification:
+            emails:   %sonata_news.comment.emails%
+            from:     %sonata_news.comment.email_from%
+            template: 'SonataNewsBundle:Mail:comment_notification.txt.twig'
+
+
 
 sonata_formatter:
     formatters:
@@ -304,3 +320,9 @@ cmf_routing:
             router.default: 100
 
 
+ivory_ck_editor:
+    default_config:
+    configs:
+
+        news:
+            toolbar:      standard
